@@ -12,63 +12,292 @@ dl dt {
 dl dd {
   list-style: none;
 }
-.tou {
-  position: relative;
-  width: 100%;
-  height: 75px;
-  background-color: aqua;
-}
-.tou .logo {
-  position: absolute;
-  top: 10px;
-  left: 210px;
-  width: 135px;
-  height: 50px;
-}
-.tou table {
-  position: absolute;
-  top: 10px;
-  left: 355px;
-  width: 500px;
-  height: 55px;
-  text-align: center;
-  line-height: 55px;
-}
-.tou table tr td {
-  cursor: pointer;
-}
-.tou table tr td:hover {
-  color: #F76E49;
-}
-.tou .sousuo {
-  position: absolute;
-  top: 30px;
-  left: 1145px;
-}
-.tou .register {
-  position: absolute;
-  left: 1210px;
-  top: 25px;
-  width: 50px;
-  height: 34px;
-  border: 1px solid #F76E49;
-  border-radius: 5px;
-  color: #F76E49;
-  text-align: center;
-  line-height: 34px;
-  cursor: pointer;
-}
 .shen {
   position: relative;
   width: 100%;
   height: 300px;
+  color: white;
   background: url(../css/img/original.jpg) no-repeat -265px 0px;
 }
-.shen .shen_zi .huan {
+.shen .shen_zi {
   position: absolute;
-  top: 45px;
-  left: 900px;
+  top: -3000px;
+  left: 3000px;
+}
+.shen .shen_zi .huan {
   color: white;
   font-size: 40px;
   font-weight: none;
+}
+.shen .shen_zi ul {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.shen .shen_zi ul li {
+  float: left;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 15px;
+  margin-right: 30px;
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.shen .shen_zi p {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 66px;
+  font-size: 20px;
+}
+.shen .shen_zi button {
+  display: block;
+  margin-top: 20px;
+  margin-left: 128px;
+  width: 240px;
+  height: 45px;
+  font-size: 26px;
+  color: white;
+  background-color: #FE5341;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.lun {
+  position: relative;
+  width: 100%;
+  height: 380px;
+}
+.lun .lun_shi {
+  position: absolute;
+  left: 212px;
+  top: 15px;
+  font-weight: bolder;
+}
+.lun .lun_bo {
+  position: absolute;
+  top: 65px;
+  left: 210px;
+  width: 1000px;
+  height: 290px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.lun .lun_bo dl {
+  height: 290px;
+  width: 2080px;
+}
+.lun .lun_bo dl dd {
+  position: relative;
+  width: 220px;
+  float: left;
+  margin-right: 40px;
+}
+.lun .lun_bo dl dd img {
+  width: 220px;
+}
+.lun .lun_bo dl dd .img_biao {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 2px 5px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  border-radius: 0px 0px 0px 7px;
+  background-color: #F25A45;
+}
+.lun .lun_bo dl dd .img_ming {
+  display: block;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+.lun .lun_bo dl dd table {
+  margin-left: 30px;
+}
+.lun .lun_bo dl dd table tr td {
+  width: 55px;
+  height: 25px;
+  text-align: center;
+  color: #FD9C92;
+  border-radius: 3px;
+  border: 2px solid #FD9C92;
+}
+.lun .lun_bo dl dd .img_nian {
+  display: block;
+  text-align: center;
+  font-weight: 550;
+  color: #FD9C92;
+}
+.lun .lun_bo dl dd .img_nian a {
+  font-weight: normal;
+  color: black;
+}
+.lun .lun_bo dl dd .img_shen {
+  display: block;
+  color: #FD9C92;
+  text-align: center;
+}
+.lun .lun_bo dl dd:nth-of-type(2n) .img_biao {
+  color: #BEBBAC;
+  background-color: #FEF7C1;
+}
+.lun .lun_bo dl dd:nth-of-type(4n) .img_biao {
+  color: white;
+  background-color: #F25A45;
+}
+.lun .lun_left {
+  position: absolute;
+  top: 180px;
+  left: 165px;
+  cursor: pointer;
+}
+.lun .lun_right {
+  position: absolute;
+  top: 180px;
+  left: 1220px;
+  cursor: pointer;
+}
+.bao,
+.dao,
+.faxian {
+  position: relative;
+  width: 100%;
+  height: 595px;
+  background-color: #F7F7F7;
+}
+.bao .lun_shi,
+.dao .lun_shi,
+.faxian .lun_shi {
+  position: absolute;
+  left: 212px;
+  top: 15px;
+  font-weight: bolder;
+}
+.bao .lun_xiang,
+.dao .lun_xiang,
+.faxian .lun_xiang {
+  position: absolute;
+  top: 15px;
+  left: 1140px;
+  color: #FE5341;
+}
+.bao ul,
+.dao ul,
+.faxian ul {
+  position: absolute;
+  top: 35px;
+  left: 220px;
+  width: 1000px;
+}
+.bao ul li,
+.dao ul li,
+.faxian ul li {
+  float: left;
+  margin-right: 37px;
+  margin-top: 30px;
+  width: 220px;
+  height: 235px;
+  border: 1px #ddd solid;
+  border-radius: 7px;
+  background-color: white;
+}
+.bao ul li:hover .bao_img,
+.dao ul li:hover .bao_img,
+.faxian ul li:hover .bao_img {
+  width: 225px;
+}
+.bao ul li .bao_img,
+.dao ul li .bao_img,
+.faxian ul li .bao_img {
+  width: 220px;
+}
+.bao ul li .bao_kongqi,
+.dao ul li .bao_kongqi,
+.faxian ul li .bao_kongqi {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.bao ul li .bao_dian,
+.dao ul li .bao_dian,
+.faxian ul li .bao_dian {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+.bao ul li .bao_ming,
+.dao ul li .bao_ming,
+.faxian ul li .bao_ming {
+  display: block;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 13px;
+  color: #ccc;
+}
+.bao ul li .bao_you,
+.dao ul li .bao_you,
+.faxian ul li .bao_you {
+  float: right;
+  margin-top: -20px;
+}
+.bao ul li:nth-of-type(4n),
+.dao ul li:nth-of-type(4n),
+.faxian ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+.dao {
+  height: 346px;
+  background-color: white;
+}
+.dao ul li .bao_you {
+  margin-top: 50px;
+}
+.faxian {
+  height: 1672px;
+}
+.faxian ul li .bao_img {
+  height: 129px;
+}
+.faxian ul li .bao_kongqi2 {
+  font-size: 10px;
+  color: #bbb;
+  margin-left: 10px;
+}
+.faxian ul li .bao_ming {
+  margin-top: 40px;
+  font-size: 15px;
+  color: red;
+  margin-left: 10px;
+}
+.jia {
+  position: relative;
+  width: 100%;
+  height: 128px;
+  text-align: center;
+  line-height: 128px;
+}
+.jia .jaz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.jia .jia_1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+}
+.jia .jia_1 span {
+  cursor: pointer;
+  color: #F57445;
 }
