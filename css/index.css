@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+dl dt {
+  list-style: none;
+}
+dl dd {
+  list-style: none;
+}
+.tou {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  background-color: aqua;
+}
+.tou .logo {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  width: 135px;
+  height: 50px;
+}
+.tou table {
+  position: absolute;
+  top: 10px;
+  left: 355px;
+  width: 500px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+}
+.tou table tr td {
+  cursor: pointer;
+}
+.tou table tr td:hover {
+  color: #F76E49;
+}
+.tou .sousuo {
+  position: absolute;
+  top: 30px;
+  left: 1145px;
+}
+.tou .register {
+  position: absolute;
+  left: 1210px;
+  top: 25px;
+  width: 50px;
+  height: 34px;
+  border: 1px solid #F76E49;
+  border-radius: 5px;
+  color: #F76E49;
+  text-align: center;
+  line-height: 34px;
+  cursor: pointer;
+}
+.shen {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: url(../css/img/original.jpg) no-repeat -265px 0px;
+}
+.shen .shen_zi .huan {
+  position: absolute;
+  top: 45px;
+  left: 900px;
+  color: white;
+  font-size: 40px;
+  font-weight: none;
+}
