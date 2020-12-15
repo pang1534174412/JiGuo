@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jiguo_TouWei.css">
+    <link rel="stylesheet" href="../css/latest.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+</head>
+
+<body>
+    <div class="tou">
+        <img class="logo" src="../img/logonew.png" alt="">
+        <table>
+            <tr>
+                <td>首页</td>
+                <td>酷玩</td>
+                <td>导购</td>
+                <td>试用</td>
+                <td>报告</td>
+            </tr>
+        </table>
+        <img class="sousuo" src="../css/img/search.png" alt="">
+        <div class="Login">登录</div>
+        <div class="register">注册</div>
+    </div>
+    <div class="faxian2">
+        <p>发现酷玩</p>
+        <dl>
+            <dd>最新
+            </dd>
+            <dd>最热</dd>
+            <dd>遍历</dd>
+        </dl>
+        <ul class="faxian_ul">
+            <li>
+                <img class="bao_img" src="../img/k1.jpg" alt="">
+                <span class="bao_kongqi"> SCiO 微型光谱仪</span>
+                <p class="bao_kongqi2">可以测定食物成分及营养</p>
+                <span class="bao_ming">&yen;1212</span>
+                <div class="bao_you">
+                    <img src="../css/img/zan.png" alt=""><a>3</a>
+                    <img src="../css/img/reply.png" alt=""><a>3</a>
+                </div>
+            </li>
+        </ul>
+
+
+    </div>
+    <div style="clear: both;"></div>
+    <div class="bottom ">
+        <div class="px_bottom_container">
+            <ul>
+                <li><img src="../img/code.png" alt=""></li>
+                <li>
+                    <ol>
+                        <li><img src="../img/logoImg.jpg" alt=""></li>
+                        <li>全球酷玩试用导购平台<br>酷·新奇·好玩·品质</li>
+                        <li>微信添加“JguoJguo”<br>获取我们的服务。</li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">免费试用</a></li>
+                        <li>试用流程<br>如何提高成功率</li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">友情链接</a></li>
+                        <li>
+                            <ul>
+                                <li>智东西</li>
+                                <li>搜狐IT</li>
+                                <li>搜狐数码</li>
+                                <li>凤凰数码</li>
+                                <li>泡泡网</li>
+                                <li>ZUK社区</li>
+                                <li>极客公园</li>
+                                <li>果库</li>
+                            </ul>
+                            <ul>
+                                <li>WEIBUSI</li>
+                                <li>腾讯科技</li>
+                                <li>凤凰科技</li>
+                                <li>PConline</li>
+                                <li>3W咖啡</li>
+                                <li>亿觅emie</li>
+                                <li>易迅易启玩</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">购买攻略</a></li>
+                        <li>
+                            <ul>
+                                <li>美亚海淘教程</li>
+                                <li>日亚海淘教程</li>
+                                <li>海淘转运攻略</li>
+                                <li>kickstarter 众筹购买攻略</li>
+                                <li>indiegogo 众筹购买攻略</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <ol>
+                        <li><a href="#">厂商合作</a></li>
+                        <li>
+                            <ul>
+                                <li>关于极果</li>
+                                <li>日亚海淘教程</li>
+                                <li>联系我们</li>
+                                <li>商务合作：BD@jiguo.com</li>
+                                <li>CEO邮箱：CEO@jiguo.com</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="px_bottom_footer">
+            &copy; 2016 极果版权所有
+        </div>
+        <div class="px_bottom_hui">
+            <img src="../css/img/back.png" alt="">
+        </div>
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/template-web.js"></script>
+<script type="text/html" id="tpl">
+    <!-- 遍历数据 -->
+<!-- 判断有无数据 -->
+<!-- {{each users value}}
+{{each value value}}
+<li>
+    <img class="bao_img" src={{value.img}} alt="">
+    <span class="bao_kongqi">{{value.text}}</span>
+    <p class="bao_kongqi2">{{value.text}}</p>
+    <span class="bao_ming">{{value.price}} </span>
+    <div class="bao_you">
+        <img src="../css/img/zan.png" alt=""><a>{{value.like}}</a>
+        <img src="../css/img/reply.png" alt=""><a>{{value.words}} </a>
+    </div>
+</li>
+{{/each}}
+{{/each}} -->
+</script>
+<script>
+    var arr= []
+    $.get(" http://192.168.1.94:3000/play/new", function (data) {
+       
+        //操作DOM在页面中显示
+        document.querySelector(".faxian_ul").innerHTML = html;
+    })
+</script>
+
+</html>

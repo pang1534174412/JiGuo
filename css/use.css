@@ -1,0 +1,72 @@
+.lun_bo {
+  margin: 20px auto;
+  width: 1000px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.lun_bo .faxian_ul {
+  height: 290px;
+  width: 100%;
+}
+.lun_bo .faxian_ul li {
+  position: relative;
+  width: 220px;
+  height: 290px;
+  float: left;
+  margin-right: 37px;
+}
+.lun_bo .faxian_ul li img {
+  width: 220px;
+}
+.lun_bo .faxian_ul li .img_biao {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 2px 5px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  border-radius: 0px 0px 0px 7px;
+  background-color: #F25A45;
+}
+.lun_bo .faxian_ul li .img_ming {
+  display: block;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+.lun_bo .faxian_ul li table {
+  margin-left: 30px;
+}
+.lun_bo .faxian_ul li table tr td {
+  width: 55px;
+  height: 25px;
+  text-align: center;
+  color: #FD9C92;
+  border-radius: 3px;
+  border: 2px solid #FD9C92;
+}
+.lun_bo .faxian_ul li .img_nian {
+  display: block;
+  text-align: center;
+  font-weight: 550;
+  color: #FD9C92;
+}
+.lun_bo .faxian_ul li .img_nian a {
+  font-weight: normal;
+  color: black;
+}
+.lun_bo .faxian_ul li .img_shen {
+  display: block;
+  color: #FD9C92;
+  text-align: center;
+}
+.lun_bo .faxian_ul dd:nth-of-type(2n) .img_biao {
+  color: #BEBBAC;
+  background-color: #FEF7C1;
+}
+.lun_bo .faxian_ul dd:nth-of-type(4n) .img_biao {
+  color: white;
+  background-color: #F25A45;
+}

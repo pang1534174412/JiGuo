@@ -1,0 +1,156 @@
+.faxian2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.faxian2 p {
+  font-size: 30px;
+  text-align: center;
+}
+.faxian2 dl {
+  width: 510px;
+  margin: 0 auto;
+  text-align: center;
+}
+.faxian2 dl::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.faxian2 dl dd {
+  float: left;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.faxian2 ul {
+  width: 1000px;
+  margin: 0 auto;
+}
+.faxian2 ul li {
+  float: left;
+  width: 220px;
+  height: 235px;
+  border: 1px #ddd solid;
+  border-radius: 7px;
+  margin-right: 37px;
+  margin-top: 30px;
+  text-align: left;
+}
+.faxian2 ul li .bao_img {
+  width: 220px;
+  height: 129px;
+}
+.faxian2 ul li .bao_kongqi {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.faxian2 ul li .bao_kongqi2 {
+  font-size: 10px;
+  color: #bbb;
+  margin-left: 10px;
+  text-align: left;
+}
+.faxian2 ul li .bao_ming {
+  display: block;
+  margin-top: 40px;
+  font-size: 15px;
+  color: red;
+  margin-left: 10px;
+}
+.faxian2 ul li .bao_you {
+  float: right;
+  margin-top: -20px;
+}
+.faxian2 ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+.faxian2 .jia {
+  position: relative;
+  width: 100%;
+  height: 128px;
+  text-align: center;
+  line-height: 128px;
+}
+.faxian2 .jia .jaz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.faxian2 .jia .jia_1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+}
+.faxian2 .jia .jia_1 span {
+  cursor: pointer;
+  color: #F57445;
+}
+.active1 {
+  color: #FE5437;
+  border-bottom: 3px solid #FE5437;
+}
+.faxian_ul {
+  display: none;
+}
+.active {
+  display: block;
+}
+.div2 .faxian_ul3 ol {
+  width: 1000px;
+  margin: 0 auto;
+}
+.div2 .faxian_ul3 ol li {
+  margin: 50px 0;
+  width: 100%;
+}
+.div2 .faxian_ul3 ol li .div2_sheg {
+  width: 120px;
+  height: 20px;
+  border-left: 6px solid red;
+  text-align: left;
+  padding: 5px 30px;
+}
+.div2 .faxian_ul3 ol li hr {
+  border: 1px dashed;
+}
+.div2 .faxian_ul3 ol li .div2_logo {
+  width: 100%;
+}
+.div2 .faxian_ul3 ol li .div2_logo dl {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.div2 .faxian_ul3 ol li .div2_logo dl dd {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 145px;
+  height: 145px;
+}
+.div2 .faxian_ul3 ol li .div2_logo dl dd p {
+  font-size: 1em;
+  margin-top: -25px;
+  color: #ccc;
+}
+.div2 .faxian_ul3 ol li .div2_jie {
+  width: 100%;
+}
+.div2 .faxian_ul3 ol li .div2_jie dl {
+  margin-left: 10px;
+}
+.div2 .faxian_ul3 ol li .div2_jie dl dd {
+  margin-top: -5px;
+  margin-left: -11px;
+  color: #ccc;
+}
