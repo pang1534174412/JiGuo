@@ -18,7 +18,7 @@
             <tr>
                 <td>首页</td>
                 <td>酷玩</td>
-                <td>导购</td>
+                <td class="yan">导购</td>
                 <td>试用</td>
                 <td>报告</td>
             </tr>
@@ -217,7 +217,24 @@
 <script src="../js/ajax copy.js"></script>
 <script src="../js/guid.js"></script>
 <script>
-
+    $(".tou").find("td").eq(0).click(function () {
+        location = "../index.html"
+    })
+    $(".tou").find("td").eq(1).click(function () {
+        location = "../play/Latest.html"
+    })
+    $(".tou").find("td").eq(2).click(function () {
+        location = "../guid/guide.html"
+    })
+    $(".tou").find("td").eq(3).click(function () {
+        location = "../use/trial.html"
+    })
+    $(".neir-span").click(function () {
+        location = "../use/publicTrial-details.html"
+    })
+    $(".faxian_ul").click(function () {
+        location = "../guid/daogoulist-details.html"
+    })
 </script>
 
 </html>

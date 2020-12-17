@@ -4,7 +4,7 @@ $(".jia_3").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/public", function (data) {
+        $.get("http://192.168.1.24:3000/useing/public", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -30,7 +30,7 @@ $(".jia_4").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/public", function (data) {
+        $.get("http://192.168.1.24:3000/useing/public", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -56,7 +56,7 @@ $(".jia_5").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/public", function (data) {
+        $.get("http://192.168.1.24:3000/useing/public", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -82,7 +82,7 @@ $(".jia_6").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/public", function (data) {
+        $.get("http://192.168.1.24:3000/useing/public", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -108,7 +108,7 @@ $(".jia_7").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/master", function (data) {
+        $.get("http://192.168.1.24:3000/useing/master", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -134,7 +134,7 @@ $(".jia_8").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/master", function (data) {
+        $.get("http://192.168.1.24:3000/useing/master", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -160,7 +160,7 @@ $(".jia_9").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/master", function (data) {
+        $.get("http://192.168.1.24:3000/useing/master", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -186,7 +186,7 @@ $(".jia_10").click(function () {
 
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/useing/master", function (data) {
+        $.get("http://192.168.1.24:3000/useing/master", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {

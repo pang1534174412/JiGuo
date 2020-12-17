@@ -12,6 +12,7 @@
         width: 510px;
         margin: 0 auto;
         text-align: center;
+
         &::after {
             content: "";
             display: block;
@@ -144,20 +145,41 @@
                     text-align: left;
                     padding: 5px 30px;
                 }
-                hr{
+
+                hr {
                     border: 1px dashed;
                 }
+
                 .div2_logo {
                     width: 100%;
+
                     dl {
+                        width: 100%;
                         margin-left: 10px;
                         margin-top: 0px;
+
                         dd {
                             margin-top: 10px;
                             margin-bottom: 20px;
                             margin-left: 20px;
                             width: 145px;
                             height: 145px;
+
+                            img:hover {
+                                animation: 3s Rotate infinite;
+                                transform-origin: center center;
+                                cursor: pointer;
+                            }
+
+                            @keyframes Rotate {
+                                0% {
+                                    transform: rotate(0deg);
+                                }
+
+                                100% {
+                                    transform: rotate(360deg);
+                                }
+                            }
 
                             p {
                                 font-size: 1em;
@@ -169,18 +191,23 @@
 
                 }
 
-                .div2_jie{
+                .div2_jie {
                     width: 100%;
-                    dl{
+
+                    dl {
                         margin-left: 10px;
-                       dd{
-                        margin-top: -5px;
-                        margin-left: -11px;
-                        color: #ccc;
+
+                        dd {
+                            margin-top: -5px;
+                            margin-left: -11px;
+                            color: #ccc;
                         }
                     }
                 }
             }
         }
     }
+}
+li:hover{
+    cursor: pointer;
 }

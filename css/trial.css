@@ -222,13 +222,15 @@
 .li2 {
     cursor: pointer;
 }
-
+    .yan{
+        color: #F76E49;
+    }
 .tyszx-span {
     display: inline-block;
     width: 225px;
     height: 290px;
     background: url(../img/hot1.jpg) !important;
-    background-size: 225px 130px;
+    background-size: 225px 130px !important;
     background-repeat: no-repeat !important;
     border-radius: 8px;
     overflow: hidden;

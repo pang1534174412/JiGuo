@@ -1,11 +1,11 @@
 $(".dla").css("width", "340px");
 
-$(".jia_1 span").click(function a() {
+$(".jia_1 img").click(function a() {
     $(".jaz").css("display", "block")
     $(".jia_1").css("display", "none")
     var arr = [];
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/guid/new", function (data) {
+        $.get("http://192.168.1.24:3000/guid/new", function (data) {
             console.log(data);
             arr = data;
             arr.forEach(function (val) {
@@ -26,12 +26,12 @@ $(".jia_1 span").click(function a() {
     }, 3000)
 })
 
-$(".jia_1 img").click(function a() {
+$(".jia_1 span").click(function a() {
     $(".jaz").css("display", "block")
     $(".jia_1").css("display", "none")
     var arr = []
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/guid/hot", function (data) {
+        $.get("http://192.168.1.24:3000/guid/hot", function (data) {
             console.log(data);
             arr = data;
             data.forEach(function (val) {

@@ -1,9 +1,9 @@
-$(".jia_1 span").click(function a() {
+$(".jia_1 img").click(function a() {
     $(".jaz").css("display", "block")
     $(".jia_1").css("display", "none")
     var arr = []
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/play/new", function (data) {
+        $.get("http://192.168.1.24:3000/play/new", function (data) {
             console.log(data);
             arr = data;
             data[0].forEach(function (val) {
@@ -27,12 +27,12 @@ $(".jia_1 span").click(function a() {
 
 
 
-$(".jia_1 img").click(function a() {
+$(".jia_1 span").click(function a() {
     $(".jaz").css("display", "block")
     $(".jia_1").css("display", "none")
     var arr = []
     setTimeout(function () {
-        $.get("http://192.168.1.94:3000/play/hot", function (data) {
+        $.get("http://192.168.1.24:3000/play/hot", function (data) {
             console.log(data);
             arr = data;
             data[0].forEach(function (val) {
@@ -61,5 +61,4 @@ $(".dla dd").click(function () {
     var index = $(this).index();
     $(this).addClass("active1").siblings("dd").removeClass("active1")
     $(this).parent(".dla").next(".div2").children(".faxian_ul").eq(index).addClass("active").siblings(".faxian_ul").removeClass("active")
-
 })

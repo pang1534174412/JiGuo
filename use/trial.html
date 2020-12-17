@@ -19,7 +19,7 @@
                 <td>首页</td>
                 <td>酷玩</td>
                 <td>导购</td>
-                <td>试用</td>
+                <td class="yan">试用</td>
                 <td>报告</td>
             </tr>
         </table>
@@ -230,65 +230,65 @@
             </div>
         </div>
     </div>
-        <!-- 底部 -->
-        <footer>
-            <div class="footer_mes">
-                <div class="f1"></div>
-                <div class="f2">
-                    <img src="../img/logoImg.jpg">
-                    <p>全球酷玩试用导购平台<br>酷·新奇·好玩·品质</p>
-                    <p>微信添加 JguoJguo'<br>获取我们的服务。</p>
-                </div>
-                <div class="f3">
-                    <h6>免费试用</h6>
-                    <a>试用流程</a>
-                    <a>如何提高成功率</a>
-                </div>
-                <div class="f4">
-                    <h6>友情链接</h6>
-                    <ul>
-                        <li>
-                            <a>智东西</a>
-                            <a>搜狐IT</a>
-                            <a>搜狐数码</a>
-                            <a>凤凰数码</a>
-                            <a>泡泡网</a>
-                            <a>ZUK社区</a>
-                            <a>极客公园</a>
-                            <a>果库</a>
-                        </li>
-                        <li>
-                            <a>WEIBUSIemie</a>
-                            <a>腾讯科技</a>
-                            <a>凤凰科技</a>
-                            <a>PConline</a>
-                            <a>3W咖啡</a>
-                            <a>亿觅</a>
-                            <a>易迅易启玩</a>
+    <!-- 底部 -->
+    <footer>
+        <div class="footer_mes">
+            <div class="f1"></div>
+            <div class="f2">
+                <img src="../img/logoImg.jpg">
+                <p>全球酷玩试用导购平台<br>酷·新奇·好玩·品质</p>
+                <p>微信添加 JguoJguo'<br>获取我们的服务。</p>
+            </div>
+            <div class="f3">
+                <h6>免费试用</h6>
+                <a>试用流程</a>
+                <a>如何提高成功率</a>
+            </div>
+            <div class="f4">
+                <h6>友情链接</h6>
+                <ul>
+                    <li>
+                        <a>智东西</a>
+                        <a>搜狐IT</a>
+                        <a>搜狐数码</a>
+                        <a>凤凰数码</a>
+                        <a>泡泡网</a>
+                        <a>ZUK社区</a>
+                        <a>极客公园</a>
+                        <a>果库</a>
+                    </li>
+                    <li>
+                        <a>WEIBUSIemie</a>
+                        <a>腾讯科技</a>
+                        <a>凤凰科技</a>
+                        <a>PConline</a>
+                        <a>3W咖啡</a>
+                        <a>亿觅</a>
+                        <a>易迅易启玩</a>
 
-                        </li>
-                    </ul>
-                </div>
-                <div class="f5">
-                    <h6>购买攻略</h6>
-                    <a>美亚海淘教程</a>
-                    <a>日亚海淘教程</a>
-                    <a>海淘转运攻略</a>
-                    <a>kickstarter众筹购买攻略</a>
-                    <a>indiegogo众筹购买攻略</a>
-                </div>
-                <div class="f6">
-                    <h6>厂商合作</h6>
-                    <a>关于极果</a>
-                    <a>联系我们</a>
-                    <a>商务合作:BD@jiguo.com</a>
-                    <a>CEO邮箱:CEO@jiguo.com</a>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <div class="banq">
-                <p>@2016极果版权所有</p>
+            <div class="f5">
+                <h6>购买攻略</h6>
+                <a>美亚海淘教程</a>
+                <a>日亚海淘教程</a>
+                <a>海淘转运攻略</a>
+                <a>kickstarter众筹购买攻略</a>
+                <a>indiegogo众筹购买攻略</a>
             </div>
-        </footer>
+            <div class="f6">
+                <h6>厂商合作</h6>
+                <a>关于极果</a>
+                <a>联系我们</a>
+                <a>商务合作:BD@jiguo.com</a>
+                <a>CEO邮箱:CEO@jiguo.com</a>
+            </div>
+        </div>
+        <div class="banq">
+            <p>@2016极果版权所有</p>
+        </div>
+    </footer>
 </body>
 <script src="../js/trial.js"></script>
 <script>
@@ -355,7 +355,27 @@
         $(".tyszx-syz").hide();
         $(".tyszx-yjs").show();
     })
-
+    $(".tou").find("td").eq(0).click(function () {
+        location = "../index.html"
+    })
+    $(".tou").find("td").eq(1).click(function () {
+        location = "../play/Latest.html"
+    })
+    $(".tou").find("td").eq(2).click(function () {
+        location = "../guid/guide.html"
+    })
+    $(".tou").find("td").eq(3).click(function () {
+        location = "../use/trial.html"
+    })
+    $(".tou").find("td").eq(4).click(function(){
+        location = "../baogao/baogao.html"
+    })
+    $(".neir-span").click(function () {
+        location = "../use/publicTrial-details.html"
+    })
+    $(".faxian_ul").click(function () {
+        location = "../giud/daogoulist-details.html"
+    })
 </script>
 
 </html>

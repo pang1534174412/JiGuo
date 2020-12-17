@@ -17,20 +17,8 @@
         }, 1500);
     })
 
-    /* $(document).scroll(function () {
-        console.log(2);
-        if ($(this).scrollTop() < 370) {
-            console.log(3);
-            $(".shen_zi").animate({
-                top: "40px",
-                left: "900px"
-            }, 5000)
-        } else {
-            console.log(10);
-            $(".shen_zi").css({
-                top: "-40px",
-                left: "3000px"
-            })
-        }
-    }); */
+    $(".zc").click(function(){
+        location="login.html"
+    })
+
 })()

@@ -1,6 +1,7 @@
 .dla {
   width: 340px;
 }
+
 .faxian2 ul li {
   float: left;
   width: 220px;
@@ -12,12 +13,38 @@
   text-align: left;
   position: relative;
 }
+
 .faxian2 ul li .bao_you {
   position: absolute;
   top: 220px;
   left: 155px;
 }
+
 .bao_kongqi {
   font-size: 14px;
   font-weight: normal;
+}
+
+img:hover{
+  animation: ads 1.1s infinite;
+  cursor: pointer;
+
+}
+
+
+@keyframes ads {
+  0% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
 }

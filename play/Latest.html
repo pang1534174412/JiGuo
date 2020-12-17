@@ -16,7 +16,7 @@
         <table>
             <tr>
                 <td>首页</td>
-                <td>酷玩</td>
+                <td class="yan">酷玩</td>
                 <td>导购</td>
                 <td>试用</td>
                 <td>报告</td>
@@ -283,7 +283,6 @@
             </div>
             <img class="jaz" src="../css/img/loading-icon.gif" alt="">
         </div>
-
     </div>
     <div style="clear: both;"></div>
     <div class="bottom ">
@@ -373,7 +372,21 @@
 <script src="../js/ajax copy.js"></script>
 <script src="../js/latest.js"></script>
 <script>
-
+    $(".tou").find("td").eq(0).click(function () {
+        location = "../index.html"
+    })
+    $(".tou").find("td").eq(1).click(function () {
+        location = "../play/Latest.html"
+    })
+    $(".tou").find("td").eq(2).click(function () {
+        location = "../guid/guide.html"
+    })
+    $(".tou").find("td").eq(3).click(function () {
+        location = "../use/trial.html"
+    })
+    $(".tou").find("td").eq(4).click(function () {
+        location = "../baogao/baogao.html"
+    })
 </script>
 
 </html>

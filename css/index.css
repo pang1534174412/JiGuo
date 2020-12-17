@@ -2,16 +2,188 @@
   margin: 0;
   padding: 0;
 }
+
 ul li,
 ol li {
   list-style: none;
 }
+
 dl dt {
   list-style: none;
 }
+
 dl dd {
   list-style: none;
 }
+
+#wrop h4 {
+  /* margin: 15px; */
+  color: #a5a5a5;
+}
+
+.btn {
+  width: 292px;
+  margin-top: 15px;
+}
+
+#wrop .btn span {
+  line-height: 40px;
+  color: #595959;
+}
+
+#wrop .btn input {
+  width: 15px;
+  margin-left: 10px;
+  float: left;
+}
+
+#wrop .btn button {
+  width: 140px;
+  height: 40px;
+  background-color: orangered;
+  outline: none;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  float: right;
+}
+
+#wrop .btn_zc {
+  width: 292px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#wrop .btn_zc a {
+  text-decoration: none;
+
+  color: #4C4C4C;
+}
+
+.zc {
+  float: left;
+}
+
+.wj {
+  float: right;
+}
+
+.wx {
+  position: absolute;
+  right: 20px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?ca2afz');
+  src: url('../fonts/icomoon.eot?ca2afz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ca2afz') format('truetype'),
+    url('../fonts/icomoon.woff?ca2afz') format('woff'),
+    url('../fonts/icomoon.svg?ca2afz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icomoon {
+  font-family: icomoon;
+}
+
+label {
+  display: inline-block;
+  font-size: 20px;
+
+  border: 1px solid #a2a2a2;
+  margin: 10px;
+}
+
+i {
+  font-style: normal;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+input {
+  border: 0;
+  outline: none;
+  height: 40px;
+  width: 250px;
+}
+
+#wrop .right {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  padding-left: 40px;
+  border-left: 1px solid #a2a2a2;
+}
+
+.right i {
+  color: orangered;
+  font-style: normal;
+}
+
+#wrop .right span {
+  font-size: 15px;
+}
+
+.left {
+  float: left;
+}
+
+#wrop .group b {
+  padding-left: 10px;
+  color: #4C4C4C;
+}
+
+#wrop {
+  width: 655px;
+  height: 290px;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.ewm {
+  width: 200px;
+}
+
+#big {
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  margin-top: 10%;
+  width: 670px;
+  height: 335px;
+  border-radius: 8px;
+  display: none;
+
+}
+
+.x {
+  position: absolute;
+  right: -20px;
+  top: 10px;
+  cursor: pointer;
+  color: #A2A2A2;
+  font-size: 16px;
+}
+
+.shadow {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+
+
 .shen {
   position: relative;
   width: 100%;
@@ -19,20 +191,24 @@ dl dd {
   color: white;
   background: url(../css/img/original.jpg) no-repeat -265px 0px;
 }
+
 .shen .shen_zi {
   position: absolute;
   top: -3000px;
   left: 3000px;
 }
+
 .shen .shen_zi .huan {
   color: white;
   font-size: 40px;
   font-weight: none;
 }
+
 .shen .shen_zi ul {
   margin-left: 50px;
   margin-top: 20px;
 }
+
 .shen .shen_zi ul li {
   float: left;
   font-size: 17px;
@@ -43,12 +219,14 @@ dl dd {
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .shen .shen_zi p {
   display: inline-block;
   margin-top: 20px;
   margin-left: 66px;
   font-size: 20px;
 }
+
 .shen .shen_zi button {
   display: block;
   margin-top: 20px;
@@ -62,17 +240,20 @@ dl dd {
   outline: none;
   cursor: pointer;
 }
+
 .lun {
   position: relative;
   width: 100%;
   height: 380px;
 }
+
 .lun .lun_shi {
   position: absolute;
   left: 212px;
   top: 15px;
   font-weight: bolder;
 }
+
 .lun .lun_bo {
   position: absolute;
   top: 65px;
@@ -82,19 +263,23 @@ dl dd {
   border: 1px solid red;
   overflow: hidden;
 }
+
 .lun .lun_bo dl {
   height: 290px;
   width: 2080px;
 }
+
 .lun .lun_bo dl dd {
   position: relative;
   width: 220px;
   float: left;
   margin-right: 40px;
 }
+
 .lun .lun_bo dl dd img {
   width: 220px;
 }
+
 .lun .lun_bo dl dd .img_biao {
   position: absolute;
   top: 0px;
@@ -106,6 +291,7 @@ dl dd {
   border-radius: 0px 0px 0px 7px;
   background-color: #F25A45;
 }
+
 .lun .lun_bo dl dd .img_ming {
   display: block;
   margin-left: 10px;
@@ -113,9 +299,11 @@ dl dd {
   font-weight: bolder;
   text-align: center;
 }
+
 .lun .lun_bo dl dd table {
   margin-left: 30px;
 }
+
 .lun .lun_bo dl dd table tr td {
   width: 55px;
   height: 25px;
@@ -124,41 +312,49 @@ dl dd {
   border-radius: 3px;
   border: 2px solid #FD9C92;
 }
+
 .lun .lun_bo dl dd .img_nian {
   display: block;
   text-align: center;
   font-weight: 550;
   color: #FD9C92;
 }
+
 .lun .lun_bo dl dd .img_nian a {
   font-weight: normal;
   color: black;
 }
+
 .lun .lun_bo dl dd .img_shen {
   display: block;
   color: #FD9C92;
   text-align: center;
 }
+
 .lun .lun_bo dl dd:nth-of-type(2n) .img_biao {
   color: #BEBBAC;
   background-color: #FEF7C1;
 }
+
 .lun .lun_bo dl dd:nth-of-type(4n) .img_biao {
   color: white;
   background-color: #F25A45;
 }
+
 .lun .lun_left {
   position: absolute;
   top: 180px;
   left: 165px;
   cursor: pointer;
 }
+
 .lun .lun_right {
   position: absolute;
   top: 180px;
   left: 1220px;
   cursor: pointer;
 }
+
 .bao,
 .dao,
 .faxian {
@@ -167,6 +363,7 @@ dl dd {
   height: 595px;
   background-color: #F7F7F7;
 }
+
 .bao .lun_shi,
 .dao .lun_shi,
 .faxian .lun_shi {
@@ -175,6 +372,7 @@ dl dd {
   top: 15px;
   font-weight: bolder;
 }
+
 .bao .lun_xiang,
 .dao .lun_xiang,
 .faxian .lun_xiang {
@@ -183,6 +381,7 @@ dl dd {
   left: 1140px;
   color: #FE5341;
 }
+
 .bao ul,
 .dao ul,
 .faxian ul {
@@ -191,6 +390,7 @@ dl dd {
   left: 220px;
   width: 1000px;
 }
+
 .bao ul li,
 .dao ul li,
 .faxian ul li {
@@ -203,22 +403,46 @@ dl dd {
   border-radius: 7px;
   background-color: white;
 }
+
 .bao ul li:hover .bao_img,
 .dao ul li:hover .bao_img,
 .faxian ul li:hover .bao_img {
-  width: 225px;
+  animation: ads 1.1s infinite;
+  cursor: pointer;
+  
 }
+
+
+@keyframes ads {
+  0% {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(0.5,0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+}
+
 .bao ul li .bao_img,
 .dao ul li .bao_img,
 .faxian ul li .bao_img {
   width: 220px;
 }
+
 .bao ul li .bao_kongqi,
 .dao ul li .bao_kongqi,
 .faxian ul li .bao_kongqi {
   margin-left: 10px;
   font-size: 14px;
 }
+
 .bao ul li .bao_dian,
 .dao ul li .bao_dian,
 .faxian ul li .bao_dian {
@@ -230,6 +454,7 @@ dl dd {
   background-color: #ccc;
   border-radius: 50%;
 }
+
 .bao ul li .bao_ming,
 .dao ul li .bao_ming,
 .faxian ul li .bao_ming {
@@ -239,41 +464,50 @@ dl dd {
   font-size: 13px;
   color: #ccc;
 }
+
 .bao ul li .bao_you,
 .dao ul li .bao_you,
 .faxian ul li .bao_you {
   float: right;
   margin-top: -20px;
 }
+
 .bao ul li:nth-of-type(4n),
 .dao ul li:nth-of-type(4n),
 .faxian ul li:nth-of-type(4n) {
   margin-right: 0;
 }
+
 .dao {
   height: 346px;
   background-color: white;
 }
+
 .dao ul li .bao_you {
   margin-top: 50px;
 }
+
 .faxian {
   height: 1672px;
 }
+
 .faxian ul li .bao_img {
   height: 129px;
 }
+
 .faxian ul li .bao_kongqi2 {
   font-size: 10px;
   color: #bbb;
   margin-left: 10px;
 }
+
 .faxian ul li .bao_ming {
   margin-top: 40px;
   font-size: 15px;
   color: red;
   margin-left: 10px;
 }
+
 .jia {
   position: relative;
   width: 100%;
@@ -281,6 +515,7 @@ dl dd {
   text-align: center;
   line-height: 128px;
 }
+
 .jia .jaz {
   position: absolute;
   top: 50%;
@@ -290,6 +525,7 @@ dl dd {
   height: 50px;
   display: none;
 }
+
 .jia .jia_1 {
   position: absolute;
   top: 50%;
@@ -297,6 +533,7 @@ dl dd {
   transform: translate(-50%, -50%);
   width: 160px;
 }
+
 .jia .jia_1 span {
   cursor: pointer;
   color: #F57445;
